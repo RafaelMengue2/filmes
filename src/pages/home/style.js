@@ -2,18 +2,11 @@ import styled from "styled-components";
 
 export const Container = styled.div`
     padding: 2rem;
-    background-color: #f4f4f4; /* Fundo creme */
+    background-color: #f4f4f4; 
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     text-align: center;
-    font-family: 'Poppins', sans-serif; /* Fonte Poppins */
-
-    h1 {
-        margin: 2rem 0 4rem; /* Espaçamento ajustado */
-        font-size: 28px; /* Tamanho de fonte aumentado */
-        font-weight: 600; /* Peso da fonte aumentado */
-        color: #555; /* Cor do título */
-    }
+    font-family: 'Poppins', sans-serif; 
 `;
 
 export const SelectWrapper = styled.div`
@@ -29,24 +22,12 @@ export const SelectWrapper = styled.div`
   }
 `;
 
-export const SearchBar = styled.input`
-  width: 100%;
-  padding: 0.5rem;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  background-color: #fff;
-  font-size: 16px;
-  color: #333;
-  margin-top: 1rem;
-`;
-
-
 export const MovieList = styled.ul`
     list-style: none;
     display: grid;
     grid-template-columns: repeat(6, 1fr);
-    column-gap: 1.5rem; /* Espaçamento reduzido */
-    row-gap: 2rem; /* Espaçamento reduzido */
+    column-gap: 1.5rem; 
+    row-gap: 2rem; 
 `;
 
 export const Movie = styled.li`
@@ -55,7 +36,7 @@ export const Movie = styled.li`
     align-items: center;
     justify-content: center;
     padding: 1rem;
-    background-color: #fff; /* Fundo branco */
+    background-color: #fff; 
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 
@@ -66,42 +47,42 @@ export const Movie = styled.li`
     }
 
     span {
-        font-weight: 600;
         font-size: 20px;
         text-align: center;
-        color: #333; /* Cor do texto ajustada */
+        color: #333; 
         margin-top: 15px;
+        font-weight: 600;
     }
 
     a {
         text-decoration: none;
         transition: all 0.3s;
-        color: #007bff; /* Cor do link azul */
+        color: #007bff; 
     }
 
     a:hover {
-        transform: scale(1.05); /* Efeito de escala aumentado no hover */
+        transform: scale(1.05); 
     }
 `;
 
 export const Btn = styled.button`
     margin-top: 10px;
-    padding: 0.5rem 2rem; /* Botão menor */
+    padding: 0.5rem 2rem; 
     border: none;
-    border-radius: 5px; /* Borda arredondada */
+    border-radius: 5px; 
     color: #fff;
     background-color: #f4f4f4;;
     font-weight: 600;
-    font-size: 20px; /* Tamanho de fonte reduzido */
+    font-size: 20px; 
     cursor: pointer;
     transition: all 250ms;
     font-family: 'Poppins', sans-serif;
     outline: none;
-    border: 1px solid transparent; /* Borda transparente */
-    background-color: #f4f4f4; /* Fundo creme */
-    color: #555; /* Cor do botão */
+    border: 1px solid transparent; 
+    background-color: #f4f4f4;
+    color: #555; 
     &:hover {
-        background-color: #eee; /* Cor do botão ao passar o mouse */
+        background-color: #eee; 
         transform: scale(1.05);
     }
 `;
